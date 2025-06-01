@@ -8,7 +8,7 @@ import { fileURLToPath } from "url";
 const router = Router()
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname(__filename); 
 const DATA_FILE = path.join(__dirname,"..", "urlData.json");
 // console.log(__filename)
 
